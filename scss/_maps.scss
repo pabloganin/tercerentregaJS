@@ -1,0 +1,12 @@
+/*MAP - GET */
+
+$estilo: (
+  color: rgb(238, 49, 16),
+  fuente: 15px,
+);
+
+.estiloMapget {
+  background-color: map-get($estilo, color);
+  font-size: map-get($estilo, fuente);
+  margin: 3px;
+}

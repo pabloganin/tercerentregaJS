@@ -1,0 +1,11 @@
+.stilo1 {
+  font-weight: 400;
+  font-size: 15px;
+  margin: 15px 10px 15px 10px;
+  color: aliceblue;
+}
+
+.stilo2 {
+  color: aquamarine;
+  @extend .stilo1;
+}
